@@ -109,6 +109,7 @@ public class SnowFallingView: UIView {
     public func stopSnow() {
         for v in flakesArray {
             v.layer.removeAllAnimations()
+            v.removeFromSuperview()
         }
         flakesArray.removeAll()
     }
