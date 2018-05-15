@@ -1,4 +1,13 @@
-**Notice: SnowFalling is no longer being maintained/updated.**
+
+Forked from: https://github.com/pixyzehn/SnowFalling
+
+This version updates the project to Swift 4.1, if you want to use it with CocoaPods, you should add this to your Podfile:
+```
+pod 'SnowFalling', :git => 'https://github.com/omarzl/SnowFalling.git', :branch => 'master'
+```
+
+
+**Notice: SnowFalling is no longer being maintained/updated by pixyzehn and I only made the update to Swift 4, I will not maintain the project neither.**
 
 SnowFalling
 ====================
