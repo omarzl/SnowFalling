@@ -85,10 +85,12 @@ public class SnowFallingView: UIView {
         rotAnimation.repeatCount = Float.infinity
         rotAnimation.autoreverses = false
         rotAnimation.toValue = 6.28318531
+        rotAnimation.isRemovedOnCompletion = false
         
         let theAnimation: CABasicAnimation = CABasicAnimation(keyPath: "transform.translation.y")
         theAnimation.repeatCount = Float.infinity
         theAnimation.autoreverses = false
+        theAnimation.isRemovedOnCompletion = false
         
         for v in flakesArray {
             var p = v.center
